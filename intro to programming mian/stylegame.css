@@ -1,0 +1,51 @@
+nav{
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+    
+}
+body{
+    background-color: forestgreen;
+    color: blue;
+
+}
+p{
+    color: yellow;
+}
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+header{
+    text-align: center;
+}
+.blink_text
+{
+    animation:5s blinker linear infinite;
+    -webkit-animation:1s blinker linear infinite;
+    -moz-animation:1s blinker linear infinite;
+    color: yellow;
+}
+
+@-moz-keyframes blinker
+{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker
+{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker
+{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+ }

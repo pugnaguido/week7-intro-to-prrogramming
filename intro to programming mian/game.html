@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--webpage for introduction to 
+    programming week 3 written by skyler 
+    contacts for skyler, emial: SDAY82143@uat.edu
+    9/18/2023-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyler's game page</title>
+    <script src="gamecode.js"></script>
+    <link rel="stylesheet" href="stylegame.css">
+</head>
+
+<body>
+    <header>
+    <h1>Welcome to my game page</h1>
+    <h3 class="blink_text"> want to play craps?</h3>
+</header>
+    <nav>
+    <h2>
+        navigation
+    </h2>
+    <a href="./index.html">
+        home
+    </a><br>
+    <a href="./boards.html">
+        boards
+    </a><br>
+    <a href="./game.html">
+        game
+        </a><br>
+        <a href="./strings.html">
+            string
+            </a>
+    </nav>
+    <p>the rules of craps:<br>
+        1. Roll two dice<br>
+        2. if the sum of the dice are 7 or 11 you lose<br>
+        3. if the dice are equal to eachother (aka doubles) and even, you win<br>
+    </p>
+    press button to play craps <br>
+    die 1 result:<div id="die1res">press play craps for result</div><br>
+    die 2 result:<div id="die2res">press play craps for result</div><br>
+    sum result:<div id="sumres">press play craps for result</div><br>
+    finale result:<div id="finres">press play craps for result</div><br>
+    <button onclick="PlayCraps()">
+        Play Craps
+    </button>
+</body>
+
+</html>

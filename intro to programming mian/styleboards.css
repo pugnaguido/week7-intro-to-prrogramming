@@ -1,0 +1,21 @@
+nav{
+    height: 500px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+body{
+    background-color: forestgreen;
+
+}
+p{
+    color: yellow;
+}
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+header{
+    text-align: center;
+}
